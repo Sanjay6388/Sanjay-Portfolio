@@ -30,6 +30,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Portfolio",
+    image: project4,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["React", "TailwindCSS", "Node. js"],
+  },
+  { 
     title: "Real-time Collaborative Drawing App",
     image: project1,
     description:
