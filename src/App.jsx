@@ -1,10 +1,12 @@
-import React from 'react';
 import Navbar from './components/Navbar';  
 import Hero from './components/Hero';
 import Technologies from './components/Technologies';
 import Project from './components/Project';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
+import Achievements from './components/Achievements';
 
 const App = () => {
   return (
@@ -19,7 +21,10 @@ const App = () => {
       <Technologies/>
       <Project/>
       <Experience />
+      <Achievements/>
       <Contact/>
+      <SpeedInsights/>
+      <Analytics/>
     </div>
   );
 };

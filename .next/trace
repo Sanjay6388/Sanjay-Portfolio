@@ -1,0 +1,36 @@
+[
+    {
+        "name": "generate-buildid",
+        "duration": 240,
+        "timestamp": 171420248503,
+        "id": 4,
+        "parentId": 1,
+        "tags": {},
+        "startTime": 1728835845932,
+        "traceId": "c2a199ec7b22563b"
+    },
+    {
+        "name": "load-custom-routes",
+        "duration": 210,
+        "timestamp": 171420248931,
+        "id": 5,
+        "parentId": 1,
+        "tags": {},
+        "startTime": 1728835845933,
+        "traceId": "c2a199ec7b22563b"
+    },
+    {
+        "name": "next-build",
+        "duration": 93473,
+        "timestamp": 171420167816,
+        "id": 1,
+        "tags": {
+            "buildMode": "default",
+            "isTurboBuild": "false",
+            "version": "14.2.15",
+            "isTurbopack": false
+        },
+        "startTime": 1728835845852,
+        "traceId": "c2a199ec7b22563b"
+    }
+][{"name":"generate-buildid","duration":193,"timestamp":172368250764,"id":4,"parentId":1,"tags":{},"startTime":1728836793932,"traceId":"c4d1284c3fcb3a91"},{"name":"load-custom-routes","duration":190,"timestamp":172368251129,"id":5,"parentId":1,"tags":{},"startTime":1728836793932,"traceId":"c4d1284c3fcb3a91"},{"name":"next-build","duration":77304,"timestamp":172368175556,"id":1,"tags":{"buildMode":"default","isTurboBuild":"false","version":"14.2.15","isTurbopack":false},"startTime":1728836793857,"traceId":"c4d1284c3fcb3a91"}]

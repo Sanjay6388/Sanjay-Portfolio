@@ -1,7 +1,6 @@
 import { FaSquareXTwitter } from "react-icons/fa6";
 import logo from "../assets/Sanjaylogo.png"
-import { FaGithub, FaLinkedin, FaTwitter ,FaInstagram, FaSquare} from 'react-icons/fa';
-
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 const Navbar = () => {
     return (
       <nav className="flex items-center justify-between py-6">
