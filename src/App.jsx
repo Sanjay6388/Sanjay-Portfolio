@@ -4,7 +4,7 @@ import Technologies from './components/Technologies';
 import Project from './components/Project';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from "@vercel/analytics/react"
 import Achievements from './components/Achievements';
 
@@ -15,7 +15,6 @@ const App = () => {
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
       <div className="container mx-auto px-8"></div>
-      <SpeedInsights />
       <Navbar /> 
       < Hero/>
       <Technologies/>
